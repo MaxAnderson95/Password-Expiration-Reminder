@@ -83,7 +83,7 @@ ForEach ($User in $Users) {
                 Body = @"
 Hello $($User.givenname),<br>
 <br>
-Your network/email password is set to expire in <b>$Day $DayPluralOrSingular</b>. It is <b>HIGHLY</b> recommended that you change your password <b>BEFORE</b> it expires to prevent any interuption to work.
+Your network/email password is set to expire in <b>$Day $DayPluralOrSingular</b>. It is <b>HIGHLY</b> recommended that you change your password <b>BEFORE</b> it expires to prevent any interruption to work.
 <br>
 <br>
 Go to this page to learn how to change your password: <a href="$ChangePasswordHelpURL">$ChangePasswordHelpURL</a>
@@ -92,7 +92,7 @@ Go to this page to learn how to change your password: <a href="$ChangePasswordHe
 If you have any trouble changing your password, open a ticket by emailing <a href="mailto:help@contoso.com">help@contoso.com</a>
 <br>
 <br>
-<i>Note this email was sent automatically. Please do not reply to this email, you will not recieve a response.</i>
+<i>Note this email was sent automatically. Please do not reply to this email, you will not receive a response.</i>
 "@
                 BodyAsHTML = $True
 
